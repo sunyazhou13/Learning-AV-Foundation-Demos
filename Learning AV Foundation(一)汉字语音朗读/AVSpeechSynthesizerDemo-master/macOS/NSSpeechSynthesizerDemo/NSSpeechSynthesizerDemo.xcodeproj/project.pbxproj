@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F8EBF1C1E7FAE3E001EDC5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8EBF1B1E7FAE3E001EDC5A /* AppDelegate.m */; };
+		8F8EBF1F1E7FAE3E001EDC5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8EBF1E1E7FAE3E001EDC5A /* main.m */; };
+		8F8EBF211E7FAE3E001EDC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8EBF201E7FAE3E001EDC5A /* Assets.xcassets */; };
+		8F8EBF241E7FAE3E001EDC5A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F8EBF221E7FAE3E001EDC5A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F8EBF171E7FAE3E001EDC5A /* NSSpeechSynthesizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSSpeechSynthesizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8EBF1A1E7FAE3E001EDC5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F8EBF1B1E7FAE3E001EDC5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F8EBF1E1E7FAE3E001EDC5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F8EBF201E7FAE3E001EDC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F8EBF231E7FAE3E001EDC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8F8EBF251E7FAE3E001EDC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8EBF141E7FAE3E001EDC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F8EBF0E1E7FAE3E001EDC5A = {
+			isa = PBXGroup;
+			children = (
+				8F8EBF191E7FAE3E001EDC5A /* NSSpeechSynthesizerDemo */,
+				8F8EBF181E7FAE3E001EDC5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8EBF181E7FAE3E001EDC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8EBF171E7FAE3E001EDC5A /* NSSpeechSynthesizerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8EBF191E7FAE3E001EDC5A /* NSSpeechSynthesizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F8EBF1A1E7FAE3E001EDC5A /* AppDelegate.h */,
+				8F8EBF1B1E7FAE3E001EDC5A /* AppDelegate.m */,
+				8F8EBF201E7FAE3E001EDC5A /* Assets.xcassets */,
+				8F8EBF221E7FAE3E001EDC5A /* MainMenu.xib */,
+				8F8EBF251E7FAE3E001EDC5A /* Info.plist */,
+				8F8EBF1D1E7FAE3E001EDC5A /* Supporting Files */,
+			);
+			path = NSSpeechSynthesizerDemo;
+			sourceTree = "<group>";
+		};
+		8F8EBF1D1E7FAE3E001EDC5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F8EBF1E1E7FAE3E001EDC5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F8EBF161E7FAE3E001EDC5A /* NSSpeechSynthesizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8EBF281E7FAE3E001EDC5A /* Build configuration list for PBXNativeTarget "NSSpeechSynthesizerDemo" */;
+			buildPhases = (
+				8F8EBF131E7FAE3E001EDC5A /* Sources */,
+				8F8EBF141E7FAE3E001EDC5A /* Frameworks */,
+				8F8EBF151E7FAE3E001EDC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSSpeechSynthesizerDemo;
+			productName = NSSpeechSynthesizerDemo;
+			productReference = 8F8EBF171E7FAE3E001EDC5A /* NSSpeechSynthesizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8EBF0F1E7FAE3E001EDC5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Baidu, Inc.";
+				TargetAttributes = {
+					8F8EBF161E7FAE3E001EDC5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59VYXJ3S74;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F8EBF121E7FAE3E001EDC5A /* Build configuration list for PBXProject "NSSpeechSynthesizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F8EBF0E1E7FAE3E001EDC5A;
+			productRefGroup = 8F8EBF181E7FAE3E001EDC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8EBF161E7FAE3E001EDC5A /* NSSpeechSynthesizerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8EBF151E7FAE3E001EDC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8EBF211E7FAE3E001EDC5A /* Assets.xcassets in Resources */,
+				8F8EBF241E7FAE3E001EDC5A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8EBF131E7FAE3E001EDC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8EBF1F1E7FAE3E001EDC5A /* main.m in Sources */,
+				8F8EBF1C1E7FAE3E001EDC5A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F8EBF221E7FAE3E001EDC5A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8EBF231E7FAE3E001EDC5A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F8EBF261E7FAE3E001EDC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F8EBF271E7FAE3E001EDC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F8EBF291E7FAE3E001EDC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59VYXJ3S74;
+				INFOPLIST_FILE = NSSpeechSynthesizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyazhou.demo1.NSSpeechSynthesizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8EBF2A1E7FAE3E001EDC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59VYXJ3S74;
+				INFOPLIST_FILE = NSSpeechSynthesizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyazhou.demo1.NSSpeechSynthesizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8EBF121E7FAE3E001EDC5A /* Build configuration list for PBXProject "NSSpeechSynthesizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8EBF261E7FAE3E001EDC5A /* Debug */,
+				8F8EBF271E7FAE3E001EDC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8EBF281E7FAE3E001EDC5A /* Build configuration list for PBXNativeTarget "NSSpeechSynthesizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8EBF291E7FAE3E001EDC5A /* Debug */,
+				8F8EBF2A1E7FAE3E001EDC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8EBF0F1E7FAE3E001EDC5A /* Project object */;
+}
